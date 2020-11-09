@@ -11,6 +11,14 @@
 		9E523E4225586C6B0017A5D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E4125586C6B0017A5D7 /* ContentView.swift */; };
 		9E523E4425586C6D0017A5D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E523E4325586C6D0017A5D7 /* Assets.xcassets */; };
 		9E523E4725586C6D0017A5D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E523E4625586C6D0017A5D7 /* Preview Assets.xcassets */; };
+		9E523E5825586E700017A5D7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E5725586E700017A5D7 /* Home.swift */; };
+		9E523E5B255879830017A5D7 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E5A255879830017A5D7 /* CustomShape.swift */; };
+		9E523E5F255882B90017A5D7 /* ServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E5E255882B90017A5D7 /* ServerViewModel.swift */; };
+		9E523E62255882EB0017A5D7 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E61255882EB0017A5D7 /* Server.swift */; };
+		9E523E652558D2B50017A5D7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E642558D2B50017A5D7 /* CardView.swift */; };
+		9E523E682558D46D0017A5D7 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E672558D46D0017A5D7 /* BlurView.swift */; };
+		9E523E6B2558D56D0017A5D7 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E6A2558D56D0017A5D7 /* BottomSheet.swift */; };
+		9E523E6E2558D7410017A5D7 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E523E6D2558D7410017A5D7 /* CustomCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		9E523E4325586C6D0017A5D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E523E4625586C6D0017A5D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E523E4825586C6D0017A5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E523E5725586E700017A5D7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9E523E5A255879830017A5D7 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		9E523E5E255882B90017A5D7 /* ServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewModel.swift; sourceTree = "<group>"; };
+		9E523E61255882EB0017A5D7 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		9E523E642558D2B50017A5D7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9E523E672558D46D0017A5D7 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		9E523E6A2558D56D0017A5D7 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		9E523E6D2558D7410017A5D7 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,9 @@
 		9E523E3E25586C6B0017A5D7 /* ShapesCurvesCustomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				9E523E5125586E540017A5D7 /* ViewModel */,
+				9E523E5025586E370017A5D7 /* Model */,
+				9E523E4F25586E320017A5D7 /* View */,
 				9E523E3F25586C6B0017A5D7 /* ShapesCurvesCustomSheetApp.swift */,
 				9E523E4125586C6B0017A5D7 /* ContentView.swift */,
 				9E523E4325586C6D0017A5D7 /* Assets.xcassets */,
@@ -67,6 +86,35 @@
 				9E523E4625586C6D0017A5D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E523E4F25586E320017A5D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E523E5725586E700017A5D7 /* Home.swift */,
+				9E523E5A255879830017A5D7 /* CustomShape.swift */,
+				9E523E642558D2B50017A5D7 /* CardView.swift */,
+				9E523E672558D46D0017A5D7 /* BlurView.swift */,
+				9E523E6A2558D56D0017A5D7 /* BottomSheet.swift */,
+				9E523E6D2558D7410017A5D7 /* CustomCorner.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E523E5025586E370017A5D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E523E61255882EB0017A5D7 /* Server.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E523E5125586E540017A5D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E523E5E255882B90017A5D7 /* ServerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E523E652558D2B50017A5D7 /* CardView.swift in Sources */,
+				9E523E6E2558D7410017A5D7 /* CustomCorner.swift in Sources */,
+				9E523E6B2558D56D0017A5D7 /* BottomSheet.swift in Sources */,
+				9E523E682558D46D0017A5D7 /* BlurView.swift in Sources */,
+				9E523E5B255879830017A5D7 /* CustomShape.swift in Sources */,
 				9E523E4225586C6B0017A5D7 /* ContentView.swift in Sources */,
+				9E523E5825586E700017A5D7 /* Home.swift in Sources */,
+				9E523E5F255882B90017A5D7 /* ServerViewModel.swift in Sources */,
+				9E523E62255882EB0017A5D7 /* Server.swift in Sources */,
 				9E523E4025586C6B0017A5D7 /* ShapesCurvesCustomSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShapesCurvesCustomSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShapesCurvesCustomSheet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShapesCurvesCustomSheet/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShapesCurvesCustomSheet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
